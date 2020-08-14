@@ -3,6 +3,56 @@
     Kanit
 */
 
-h1 {
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    color: white;
     font-family: Kanit;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100px;
+    display: block;
+    padding-right: 50px;
+    padding-left: 40px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #111;
+    width: 100%;
+    height: 100px;
+}
+
+header nav{
+    background-color: #111;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+header nav ul li {
+    padding-left: 25px;
+    list-style: none;
+    line-height: 100px;
+}
+
+header nav ul li a {
+    font-family: Comfortaa;
+    font-size: 20px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    color: lightskyblue;
 }
