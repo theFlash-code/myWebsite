@@ -19,6 +19,7 @@ p {
 
 main {
     padding-top: 100px;
+    background-color: #f3f3f3;
 }
 
 body {
@@ -99,7 +100,7 @@ header nav ul li a:hover {
     display: table;
 }
 
-.container {
+.banner .container {
     display: table-cell;
     padding-top: 20vh;
 }
@@ -129,4 +130,79 @@ header nav ul li a:hover {
     .banner {
         width: 90%;
     }
+}
+
+/* Card */
+.card-section {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.card-section h1{
+    background-color: #111;
+    color: white;
+    font-family: Comfortaa;
+    font-size: 50px;
+    margin-left: auto;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.card-div {
+    padding-top: 20px;
+}
+
+.card-img-IICC, .card-img{
+    width: 30%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/IICC.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-img-IICC:hover , .card-img:hover{
+    opacity: 0.8;
+}
+
+.span-title {
+    line-height: 300px;
+    font-family: Catamaran;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.card-text {
+    overflow: scroll;
+    margin: 0 auto;
+    width: 30%;
+    height: 0;
+    background-color: cadetblue;
+    border-radius: 0 0 10px 10px;
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+.card-text p {
+    width: 80%;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-family: Patrick Hand;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0;
+    transition: all 1s ease-in-out 0.3s;
+}
+
+/* blank */
+.blank {
+    height: 1000px;
 }
