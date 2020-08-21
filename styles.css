@@ -129,10 +129,10 @@ header nav ul li a:hover {
     }
 }
 
-h3 {
+main h3 {
     padding-top: 10px;
     text-align: center;
-    background-color: #111;
+    background-color: rgba(101, 173, 221, 0.699);
     color: white;
     font-family: Comfortaa;
     font-size: 50px;
@@ -285,23 +285,44 @@ h3 {
 /* footer */
 footer {
     width: 100%;
-    height: 200px;
+    height: fit-content;
     background-color: #111;
+    display: flex;
+}
+
+.information {
+    padding-top: 50px;
+}
+
+.information h3 {
+    color: white;
+    font-family: Comfortaa;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
 }
 
 .Social-media {
     width: 50%;
     height: 100px;
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.Social-media a {
+.Social-media a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* blank */
-.blank {
-    height: 1000px;
+.Social-media a h4 {
+    padding-top: 10px;
+    font-family: Comfortaa;
+    line-height: 36px;
+    font-size: 22px;
 }
+
