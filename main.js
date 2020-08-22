@@ -29,3 +29,15 @@ let statusCard = function(id){
     }
     setTimeout(() => { pic.style.transitionDelay = "0s";}, 800);
 }
+
+var header = document.querySelector(".header");
+
+var imgPos = document.querySelector(".banner-bottom").offsetTop;
+
+window.onscroll = function(){
+    if(window.pageYOffset > imgPos){
+        header.style.backgroundColor = "#222";
+    }else{
+        header.style.backgroundColor = "transparent";
+    }
+}
