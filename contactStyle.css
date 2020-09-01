@@ -1,0 +1,12 @@
+.contact-body {
+    height: calc(100vh - 270px);
+    
+}
+
+.contact-card {
+    background-color: #ddd;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 300px;
+}
