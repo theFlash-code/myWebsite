@@ -1,11 +1,22 @@
 .contact-body {
     height: calc(100vh - 270px);
-    padding-top: 200;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-card {
     background-color: #ddd;
-    height: 80%;
-    width: 80%;
+    height: 85%;
+    width: 90%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card h4 {
+    font-family: Catamaran;
+    font-weight: bold;
 }
